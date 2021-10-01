@@ -167,6 +167,13 @@ export const contractAbi = [
     type: "function",
   },
   {
+    inputs: [],
+    name: "emergencyWithdrawAll",
+    outputs: [],
+    stateMutability: "nonpayable",
+    type: "function",
+  },
+  {
     inputs: [{ internalType: "uint256", name: "tokenId", type: "uint256" }],
     name: "getApproved",
     outputs: [{ internalType: "address", name: "", type: "address" }],
@@ -308,6 +315,13 @@ export const contractAbi = [
     type: "function",
   },
   {
+    inputs: [],
+    name: "splitWithdrawAll",
+    outputs: [],
+    stateMutability: "nonpayable",
+    type: "function",
+  },
+  {
     inputs: [{ internalType: "bytes4", name: "interfaceId", type: "bytes4" }],
     name: "supportsInterface",
     outputs: [{ internalType: "bool", name: "", type: "bool" }],
@@ -398,14 +412,7 @@ export const contractAbi = [
     stateMutability: "nonpayable",
     type: "function",
   },
-  {
-    inputs: [],
-    name: "withdrawAll",
-    outputs: [],
-    stateMutability: "nonpayable",
-    type: "function",
-  },
 ];
 // export const contractAddress = "0xD73eE48F78da0B851892A60772acC9d0218374FE";
 // export const contractAddress = "0xF08D6dF7C9B63DaA078eAEb791b51abF0dc6F33c";
-export const contractAddress = "0x9e26A3CA814FB06fe904B84c2b5F78Cc0B7E5952";
+export const contractAddress = "0xe1fB962a36977F408E11E0f60Cb9dc4C3BFDd5ae";
